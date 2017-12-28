@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require './lib/merge_sort'
+require './merge/lib/merge_sort'
 
 class MergeSortTest < Minitest::Test
   def test_it_sorts_an_array
